@@ -1,13 +1,15 @@
 name: account_cmd_parser
-description: A starting point for Dart libraries or applications.
+description: A wrapper of ArgParser to parse command-line arguments or console inputs to a predefined Account model.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+homepage: https://github.com/m11v/account_cmd_parser
+repository: https://github.com/m11v/account_cmd_parser
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
 
-# dependencies:
-#   path: ^1.8.0
+dependencies:
+  args: ^2.4.0
+  equatable: ^2.0.5
 
 dev_dependencies:
   lints: ^2.0.0
